@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{2F97004D-0092-4C5F-85DE-C36B88245DB6}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SilverScreen.iOS.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\IdentifierSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Show.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ShowRating.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\DependencyContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ServiceContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Season.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Episode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ShowListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ShowDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\EpisodeDetailsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AddShowSearchViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SearchResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SettingsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TraktService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AuthenticationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\IAuthenticationHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\OAuthCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\BaseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\DownloadListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DownloadRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\UserProfile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ShowCastMember.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\DataService.cs" />
+  </ItemGroup>
+</Project>

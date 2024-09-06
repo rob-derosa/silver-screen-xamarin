@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{45EBE5EF-1F39-44FA-AF05-D8F327F05C46}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SilverScreen.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BaseModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DownloadRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DownloadResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TaskRunner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BasePeer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UpcomingEpisode.cs" />
+  </ItemGroup>
+</Project>
